@@ -19,4 +19,4 @@ def email_alert(subject,body,to):
     server.quit()
     
 if __name__ =='__main__':
-    email_alert("Hey","Me llamo spamaerfaeosdij","kevinportillo11@gmail.com")
+    email_alert("Hey","SOy kevin el 24 de agosto","kevinportillo11@gmail.com")
