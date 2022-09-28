@@ -17,4 +17,4 @@ def vowel(character):
     else:   
         return False
     
-print(vowel("3"))    
+print(vowel("b"))    

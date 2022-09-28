@@ -28,6 +28,7 @@ time = r.json()["rows"][0]["elements"][0]["duration"]["text"]
 seconds = r.json()["rows"][0]["elements"][0]["duration"]["value"]
   
 # print the travel time
+print(f"Your home address is {home} and your work address is {work}")
 print("\nThe total travel time from home to work is", time)
 
 # check if travel time is more than 1 hour
@@ -50,5 +51,5 @@ if (seconds > 3600):
         server.quit()
     
 if __name__ =='__main__':
-    email_alert(f"Hey","hola ahora llegare tarder al trabajo, llegare a las {time}","kevinportillo11@gmail.com")
-    print(f"Ya que te tardas {time} enviamos correo a tu jefe")
+    email_alert(f"Late","Hi, Today I will be late at work. I will be in {time}. I'm sorry","kevinportillo11@gmail.com")
+    print(f"You're late! Your travel takes {time}, Therefore, We send a message to your boss")

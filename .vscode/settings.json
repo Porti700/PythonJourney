@@ -10,6 +10,12 @@
     "python.testing.unittestEnabled": true,
     "liveServer.settings.port": 5502,
     "cSpell.words": [
-        "lxml"
+        "apellido",
+        "apellidos",
+        "dataframe",
+        "exitonclick",
+        "lxml",
+        "pirano",
+        "porti"
     ]
 }
