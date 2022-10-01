@@ -16,6 +16,7 @@
         "exitonclick",
         "lxml",
         "pirano",
-        "porti"
+        "porti",
+        "pyperclip"
     ]
 }
